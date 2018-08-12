@@ -1,0 +1,377 @@
+
+/*Genrelle indstillinger*/
+
+/* Reset margin and padding */
+* {
+    margin: 0em;
+    padding: 0em;
+    background-color: #d0d0d0;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0.5em 0em 1em 0.5em;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0.5em 0em 1em 0.5em;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1em 0em 1em 0.5em;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    padding: 0em 0.8em 1em 0.8em;
+}
+
+header {
+    /* background-color: #fbff2d; */
+    padding: 0em 0.8em 1em 0.8em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+img {
+    width: 100%;
+    /* margin: 0em 0.9em 0em 0.5em; */
+    
+}
+
+
+
+/* OM Sektionen */
+
+#om {
+    /* background-color: aqua; */
+    margin: 0em;
+
+}
+
+#om .sectionwrapper{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#om .column{
+
+    flex-basis: 400px;
+    flex-grow: 1;
+    /* margin: 0em 0em 0em 0.8em */
+    
+   
+}
+
+
+/* EKSEMPEL sektion */
+
+#eksempler {
+    background-color: green;
+    
+}
+
+#eksempler .sectionwrapper{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#eksempler .column{
+
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#eksempler .column_content{
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+/* TYPOGRAFI sektion */
+
+#typografi {
+
+    background-color: brown;
+}
+
+#typografi .sectionwrapper{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#typografi .column_wide{
+    flex-basis: 400px;
+    flex-grow: 3
+}
+
+#typografi .column_narrow{
+
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+#typografi .top{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#typografi .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
+
+#typografi .txt{
+    flex-basis: 200px;
+    flex-grow: 1
+
+}
+
+#typografi .image{
+    flex-basis: 200px;
+    flex-grow: 1
+
+}
+
+/*KOMPOSITION OG FARVER*/
+
+#komposition_farver{
+
+    /* background-color: yellow; */
+}
+
+#komposition_farver .sectionwrapper{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#komposition_farver .column_wide{
+
+    flex-basis: 400px;
+    flex-grow: 2;
+}
+
+#komposition_farver .column_narrow{
+
+    flex-basis: 400px;
+    flex-grow: 1;
+
+}
+
+#komposition_farver .column_content{
+
+    display: flex;
+    flex-wrap: wrap
+}
+
+#komposition_farver .column_content .content {
+  background-color: aqua;
+    flex-basis: 200px;
+    flex-grow: 3;
+}
+
+#komposition_farver .column_content .colors {
+  /* background-color: coral; */
+    flex-basis: 200px;
+    flex-grow: 1;
+
+}
+
+/* color swatch */
+
+
+#komposition_farver .colors {
+
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.5em
+
+}
+
+#komposition_farver .color1 {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  background-color: #f50019;
+}
+
+#komposition_farver .color2 {
+  text-align: center;
+
+  width: 60px;
+  height: 60px;
+  background-color: #fbff2d;
+}
+
+#komposition_farver .color3 {
+  text-align: center;
+
+  width: 60px;
+  height: 60px;
+  background-color: #3300fc;
+}
+
+#komposition_farver .color4 {
+  text-align: center;
+  color: #ffffff;
+  width: 60px;
+  height: 60px;
+  background-color: #000000;
+}
+
+#komposition_farver .color5 {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+}
+
+#links {
+    background-color: cadetblue;
+}
+
+#links .content {
+    padding:  0em 0em 0em 1.6em
+}
+#ekstra {
+    background-color: darkmagenta;
+}
+
+#ekstra .sectionswrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ekstra .content .column1{
+
+    flex-basis: 400px;
+    flex-grow: 2;
+
+}
+
+#ekstra .content .column2{
+
+    flex-basis: 400px;
+    flex-grow: 2;
+
+}
+
+
+/* Fonte og styletile */
+
+/* webkit ref */
+/* sættes ind her */
+
+/* wof placers i roden AF WEBMAPPE */
+
+/* ******************************************************* */
+
+#styletile {
+
+  background-color: antiquewhite;
+
+}
+
+#styletile h1 {
+  font-family: 'Futura PT' sans-serif;
+
+
+}
+
+#styletile h2 {
+
+
+  color: red;
+  font-family: 'Verdana';
+}
+#styletile h3 {
+
+  font-family: kopier navn fra font face link i
+}
+
+#styletile .colors {
+    
+    
+    
+}
+
+#styletile .colors {
+
+  display: flex;
+/*  justify-content: space-between;*/
+
+}
+
+#styletile .colors .color1 {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  background-color: #f50019;
+}
+
+#styletile .color2 {
+  text-align: center;
+
+  width: 60px;
+  height: 60px;
+  background-color: #fbff2d;
+}
+
+#styletile .color3 {
+  text-align: center;
+
+  width: 60px;
+  height: 60px;
+  background-color: #3300fc;
+}
+
+#styletile .color4 {
+  text-align: center;
+  color: #ffffff;
+  width: 60px;
+  height: 60px;
+  background-color: #000000;
+}
+
+#styletile .color5 {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+}
+
+#styletile .ikon {
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+ 
+#styletile .splash {
+    
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+
+
+

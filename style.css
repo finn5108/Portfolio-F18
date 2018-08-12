@@ -1,0 +1,104 @@
+* {
+    margin: 0em;
+    padding: 0em;
+}
+
+body {
+    background-color: #00334f;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.button1 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #00649f;
+    border: none;
+    width: 17em;
+    color: white;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 1em;
+}
+
+.button1:hover {
+    background-color: #008DDB;
+}
+
+.button2 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #00649f;
+    border: none;
+    width: 17em;
+    color: white;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 1em;
+}
+
+.button2:hover {
+    background-color: #008DDB;
+}
+
+.button3 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #00649f;
+    border: none;
+    width: 17em;
+    color: white;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 1em;
+}
+
+.button3:hover {
+    background-color: #008DDB;
+}
+
+.button4 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #00649f;
+    border: none;
+    width: 17em;
+    color: white;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 1em;
+}
+
+.button4:hover {
+    background-color: #008DDB;
+}
+
+.button5 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #00649f;
+    border: none;
+    width: 17em;
+    color: white;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 1em;
+}
+
+.button5:hover {
+    background-color: #008DDB;
+}
